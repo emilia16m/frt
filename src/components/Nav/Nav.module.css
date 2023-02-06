@@ -2,3 +2,23 @@
     grid-area: nav;
     background-color: royalblue;
   }
+
+.nav ul {
+    list-style: none;
+}
+ 
+.nav ul a {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+}
+
+.nav ul a:hover {
+  text-decoration: underline;
+}
+
+.nav ul a:focus {
+  color:rgb(202, 156, 156);
+  text-decoration: underline;
+}
+
