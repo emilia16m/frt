@@ -1,4 +1,23 @@
 .dialogs {
     display: grid;
     grid-template-columns: 2fr 10fr;
+    padding: 10px;
+}
+.name_item{
+    margin-top: 10px;
+}
+.name_item a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+.name_item a:focus {
+    border-bottom: 1px #5F8C7F solid;
+}
+
+.messages_item {
+    color: white;
+    margin-top: 10px;
+    font-size: 17px;
 }
