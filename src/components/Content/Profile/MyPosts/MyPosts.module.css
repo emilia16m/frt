@@ -1,1 +1,22 @@
 
+.posts_wrapper {
+    padding: 20px;
+}
+.posts_wrapper span {
+    display: block;
+    margin-bottom: 15px ;
+}
+
+.add_post {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+.button_post {
+    background-color: 	#BFBF82;
+    border: none;
+    width: 100px;
+    height: 30px;
+    color: white;
+    margin-left: 20px;
+}
