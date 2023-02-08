@@ -21,4 +21,27 @@
     margin-top: 10px;
     font-size: 17px;
 }
- 
+.sendMessage {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 15px;
+}
+.button {
+    background-color: 	#BFBF82;
+    border: none;
+    width: 100px;
+    height: 30px;
+    color: white;
+    margin-left: 20px;
+}
+.button:hover {
+    cursor: pointer;
+}
+.text{
+    padding: 7px;
+    outline: none;
+    border: none;
+    resize: none;
+    width: 250px;
+    height: 40px;
+}
