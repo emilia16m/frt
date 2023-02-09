@@ -1,5 +1,6 @@
 import React, { createRef } from 'react';
 import { NavLink } from 'react-router-dom';
+import { addMessage } from '../../../redux/state';
 import s from './Dialogs.module.css';
 
 const DialogItem = (props) =>{
@@ -20,10 +21,11 @@ const Dialogs = (props) => {
     let messageItem = props.message.map(item => <Message message={item.message}/>)
     let dialogs = props.dialogs.map( name_item => <DialogItem name={name_item.name} id={name_item.id}/>)
 
-    let newMessage = createRef();
+    let newMessage = createRef();   
     let sendMessage =() => {
         const Message = newMessage.current.value;
-        alert(Message)
+        props.addMessage(Message)
+        newMessage.current.value = " " 
     }
     return (
         <div className={s.dialogs}>
